@@ -32,10 +32,10 @@ int main(){
 	int MAX_MENU = 3;
 	while (menu <= 0 || menu > MAX_MENU){
 		system("cls");
-		printf("Escolha uma das opções: \n1-)Calcular fatorial.\n2-)Calcular exponencial.\n3-)Calcular máximo divisor comum.\n");
+		printf("Escolha uma das opÃ§Ãµes: \n1-)Calcular fatorial.\n2-)Calcular exponencial.\n3-)Calcular mÃ¡ximo divisor comum.\n");
 		scanf("%d", &menu);
 			if(menu == 1){
-				printf("\nDigite o número em que deseja aplicar o fatorial: \n");
+				printf("\nDigite o nÃºmero em que deseja aplicar o fatorial: \n");
 				scanf("%d", &n);
 				printf("\nResultado: %d", fatorial(n));
 			}else{
@@ -47,9 +47,9 @@ int main(){
 					printf("\nResultado: %d", exponencial(n,x));	
 				}else{
 					if(menu == 3){
-						printf("\nDigite o primeiro número: ");
+						printf("\nDigite o primeiro nÃºmero: ");
 						scanf("%d", &n);
-						printf("Digite o segundo número: ");
+						printf("Digite o segundo nÃºmero: ");
 						scanf("%d", &x);
 						printf("\nResultado: %d", maxdiv(n,x));
 					}
